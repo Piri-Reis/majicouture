@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*************************** Navigation Menu Desktop ****************************/
+.nav-menu-desktop {
+  @apply
+  flex flex-row
+  items-center
+}
+
+.nav-menu-desktop li a  {
+  @apply
+  text-gray-600
+  hover:text-black hover:font-semibold
+  font-serif
+  items-center
+  py-4  mx-8
+  overflow-y-auto
+  whitespace-nowrap
+}
+
+/*************************** Navigation Menu Mobile ****************************/
+#nav-menu-mobile {
+  @apply z-40 p-4
+  bg-black text-white
+  h-screen
+  absolute
+  top-0 right-0
+  w-80
+  transition duration-150 ease-in-out
+}
+
+#nav-menu-mobile ul{
+  @apply space-y-4
+}
+
+
+/****************************************** Media queries ****************************************/
+
+@media (max-width: 768px) {
+  .nav-menu-desktop{
+    display : none;
+  }
+
+  .logo {
+    display : none;
+  }
+}
