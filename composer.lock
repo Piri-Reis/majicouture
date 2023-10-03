@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff0232b15dcabdaae50a7568bd5de456",
+    "content-hash": "2fe5319f2daf9eb9c0f0ed5ff250dbb3",
     "packages": [
         {
             "name": "brain/hierarchy",
@@ -4131,16 +4131,34 @@
             "time": "2022-01-26T06:41:52+00:00"
         },
         {
-            "name": "wpackagist-plugin/woocommerce",
-            "version": "6.2.1",
+            "name": "wpackagist-plugin/smartslider",
+            "version": "1.0.1",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/6.2.1"
+                "url": "https://plugins.svn.wordpress.org/smartslider/",
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.6.2.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/smartslider.zip?timestamp=1218695025"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/smartslider/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce",
+            "version": "8.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce/",
+                "reference": "tags/8.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.8.1.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4159,5 +4177,5 @@
         "php": "^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }

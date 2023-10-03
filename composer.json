@@ -12,7 +12,8 @@
         "fiskhandlarn/blade": "^0.6.1",
         "livewire/livewire": "^2.10",
         "wordplate/framework": "^11.0",
-        "wpackagist-plugin/woocommerce": "^6.2"
+        "wpackagist-plugin/smartslider": "^1.0",
+        "wpackagist-plugin/woocommerce": "^8.1"
     },
     "repositories": [
         {
