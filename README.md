@@ -478,3 +478,4 @@ WordPlate wouldn't be possible without these amazing open-source projects.
 - [`vlucas/phpdotenv`](https://github.com/vlucas/phpdotenv)
 "# jihane-malfi" 
 "# majicouture" 
+"# majicouture" 
