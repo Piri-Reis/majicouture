@@ -479,3 +479,4 @@ WordPlate wouldn't be possible without these amazing open-source projects.
 "# jihane-malfi" 
 "# majicouture" 
 "# majicouture" 
+"# majicouture" 
