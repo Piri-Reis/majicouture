@@ -477,3 +477,4 @@ WordPlate wouldn't be possible without these amazing open-source projects.
 - [`symfony/var-dumper`](https://github.com/symfony/routing)
 - [`vlucas/phpdotenv`](https://github.com/vlucas/phpdotenv)
 "# jihane-malfi" 
+"# majicouture" 
